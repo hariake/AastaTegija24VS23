@@ -1,6 +1,12 @@
-.body {
+body {
     background-color: black;
 }
-.h1 {
+h1 {
     font-size: 40px;
+}
+.first{
+    background-image: url("img/bänner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
