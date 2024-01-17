@@ -2,12 +2,24 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 h1 {
     font-size: 40px;
 }
+
 /* divid */
-.first {
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.column {
+width: 30%;
+
+}
+.first{
     background-image: url("img/bänner.png");
     background-size: cover;
     background-position: center;
@@ -63,3 +75,12 @@ li {
     font-weight: bold;
     text-align: center;
 }
+.column p {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
