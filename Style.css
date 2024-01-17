@@ -11,7 +11,27 @@ h1, h2 {
 }
 
 /* divid */
-
+/* home button */
+.home-container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.home-container a {
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+}
+.home-container img {
+    max-width: 100%;
+    height: auto;
+}
+.home-container h2 {
+    font-size: 21px;
+    font-weight: 700;
+}
 section {
     display: flex;
     padding-left: 100px;
@@ -77,6 +97,10 @@ nav a{
     transition: background-color 0.3s ease;
 }
 
+.navbar-container{
+    display: flex;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -102,6 +126,8 @@ li {
 }
 .column img {
     margin-bottom: 20px;
+    max-width:100%;
+    height: auto;
 }
 
 .no-border {
