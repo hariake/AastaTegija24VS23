@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: 'Montserrat'
+    font-family: 'Montserrat';
+    height: 100vh;
 }
 h1, h2 {
     color: #fff;
@@ -11,6 +12,22 @@ h1, h2 {
 }
 
 /* divid */
+.Contacts {
+    background-color: #CADB36;
+    width: 35%;
+    height: 70%;
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.Contacts p {
+    font-size: 20px;
+    color: black;
+    line-height: 24px;
+    margin: 90px;
+    font-weight: bold;
+
+}
 /* home button */
 .home-container {
     display: flex;
