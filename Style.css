@@ -244,9 +244,9 @@ li {
 }
 /* table */
 table {
-    width: 100%;
+    width: 95%;
     border-spacing: 0;
-    margin-bottom: 30px;
+    margin:auto ;
 }
 .th1 {
     background-color: #EF4044;
