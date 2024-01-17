@@ -7,6 +7,15 @@ body {
 h1 {
     font-size: 40px;
 }
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.column {
+width: 30%;
+
+}
 .first{
     background-image: url("img/bänner.png");
     background-size: cover;
@@ -22,5 +31,13 @@ h1 {
     background-repeat: no-repeat;
     width: 1440px;
     height: 610px;
+}
+.column p {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
 }
 nav{}
