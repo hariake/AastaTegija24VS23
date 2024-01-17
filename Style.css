@@ -2,7 +2,6 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
-    display: flex;
     flex-direction: column;
     overflow: hidden;
     font-family: 'Montserrat'
@@ -98,8 +97,12 @@ section {
 .fourth h1 {
     font-size: 34px;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left; 
     margin-right: auto;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .fifth {
         background-image: url("img/logo2024 1Mängudelogo.png");
@@ -110,7 +113,7 @@ section {
         height: 40%;
         position: absolute;
         left: 70%;
-        bottom: 35%; /* Adjust as needed to position the second image */
+        bottom: 35%;
 }
 nav{
     color: black;
