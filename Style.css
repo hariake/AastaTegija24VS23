@@ -253,9 +253,11 @@ li {
 }
 /* table */
 table {
-    width: 95%;
     border-spacing: 0;
-    margin:auto ;
+    padding-bottom: 50px;
+    padding-left: 160px;
+    padding-right: 160px;
+    width: -webkit-fill-available;
 }
 .th1 {
     background-color: #EF4044;
@@ -291,6 +293,7 @@ td:nth-child(1){
     color: black;
     font-weight: bold;
     text-align: center;
+    border-left: none;
 }
 td:nth-child(2){
     width: 75%;
@@ -309,6 +312,7 @@ td:nth-child(3){
     font-weight: bold;
     padding-left: 15px;
     text-align: left;
+    border-right: none;
 }
 .image-container {
     position: relative;
