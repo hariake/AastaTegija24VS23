@@ -68,8 +68,16 @@ section {
 .column-container {
     display: flex;
     flex-direction: column;
-    width: 30%;
     box-sizing: border-box;
+}
+.w-30{
+    width: 30%;
+}
+.w-33{
+    width: 33%;
+}
+.w-66{
+    width: 66%;
 }
 .column {
     border-right: 2px solid #fff;
@@ -182,6 +190,13 @@ li {
     flex: 1;
     font-size: 17px;
     font-weight: bold;
+}
+.column h2 {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 .column p {
     color: #FFF;
