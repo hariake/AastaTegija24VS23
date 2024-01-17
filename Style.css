@@ -95,8 +95,12 @@ section {
 .fourth h1 {
     font-size: 34px;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left; 
     margin-right: auto;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .fifth {
     background-image: url("img/logo2024 1Mängudelogo.png");
