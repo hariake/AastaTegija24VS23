@@ -2,7 +2,6 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
-    flex-direction: column;
     overflow: hidden;
     font-family: 'Montserrat'
 }
@@ -45,7 +44,6 @@ section {
     box-sizing: border-box;
 }
 .column {
-    width: 30%;
     border-right: 2px solid #fff;
     padding-right: 60px;
     padding-left: 60px;
