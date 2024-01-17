@@ -2,7 +2,8 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 h1 {
     font-size: 40px;
@@ -16,33 +17,62 @@ section {
     padding: 20px;
 }
 .column {
-width: 30%;
-
+    width: 30%;
 }
 .first{
     background-image: url("img/bänner.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 1000px;
+    height: 40vh;
 }
 .second{
     background-image: url("img/pilt ja musterPõhipilt.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 610px;
+    width: 100%;
+    height: 85%;
+    flex: 1;
+    display: flex;
 }
 .third {
     background-image: url("img/logodlogod.png");
     background-position: bottom left;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    width: auto;
-
+    background-size: 100% 100%;
+    height: 15%;
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+.fourth {
+    background-image: url("img/Polygon 1.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 65%;
+    height: 100%;
+    margin-left: auto;
+    flex: 1;
+}
+.fourth h1 {
+    font-size: 34px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: auto;
+}
+.fifth {
+        background-image: url("img/logo2024 1Mängudelogo.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 30%;
+        height: 40%;
+        position: absolute;
+        left: 70%;
+        bottom: 35%; /* Adjust as needed to position the second image */
 }
 nav{
     color: black;
@@ -53,6 +83,7 @@ nav{
     width: 50% ;
     box-sizing: border-box;
     margin-left: auto;
+    height: 5vh;
 }
 nav a{
     text-decoration: none;
@@ -82,5 +113,23 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: normal; 
+}
+.container0{
+    height: 50vh;
+    display: flex;
+    padding-top: 35px;
+}
+.container1{
+    width: 50%;
+    height: 100%;
+    margin-right: auto;
+
+}
+.container2{
+    height: 75%;
+    width: 50%;
+    margin-left: auto;
+    margin-top: auto;
+    position: relative;
 }
 
