@@ -9,7 +9,6 @@ h1, h2 {
     color: #fff;
     font-size: 40px;
 }
-
 /* divid */
 .Contacts {
     background-color: #CADB36;
@@ -78,6 +77,15 @@ section {
 }
 .w-66{
     width: 66%;
+}
+.f-20{
+    font-size: 20px;
+}
+.f-16{
+    font-size: 16px;
+}
+.f-12{
+    font-size: 12px;
 }
 .column {
     border-right: 2px solid #fff;
@@ -201,7 +209,6 @@ li {
 .column p {
     color: #FFF;
     font-family: 'Montserrat';
-    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal; 
@@ -293,4 +300,24 @@ td:nth-child(3){
     font-weight: bold;
     padding-left: 15px;
     text-align: left;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    text-align: center;
 }
