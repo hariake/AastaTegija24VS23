@@ -120,51 +120,58 @@ section {
     align-items: flex-start;
 }
 .fifth {
-        background-image: url("img/logo2024 1Mängudelogo.png");
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 30%;
-        height: 40%;
-        position: absolute;
-        left: 70%;
-        bottom: 35%;
+    background-image: url("img/logo2024 1Mängudelogo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    left: 70%;
+    bottom: 35%; /* Adjust as needed to position the second image */
 }
 nav{
+    display: flex;
     color: black;
     background-color: #CADB36;
-    justify-content: space-around;
     align-items: center;
-    padding: 10px;
     width: 50% ;
     box-sizing: border-box;
     margin-left: auto;
     height: 5vh;
 }
 nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     text-decoration: none;
     color: black;
-    padding: 15px;
-    border-radius: 5px;
     transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
-
+nav a:hover{
+    background-color: #A2AF2B;
+}
 .navbar-container{
     display: flex;
 }
-
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 li {
-    margin-bottom: 10px;
+    display: flex;
+    flex: 1;
     font-size: 17px;
     font-weight: bold;
-    text-align: center;
 }
 .column p {
     color: #FFF;
