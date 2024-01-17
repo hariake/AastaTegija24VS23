@@ -5,6 +5,7 @@ body {
     overflow: hidden;
 }
 h1 {
+    color: #fff;
     font-size: 40px;
 }
 
@@ -12,12 +13,19 @@ h1 {
 
 section {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    padding: 100px;
 }
 .column {
-width: 30%;
-
+    width: calc(30% - 10px);
+    box-sizing: border-box;
+    border-right: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.column:last-child {
+    border-right: none;
 }
 .first{
     background-image: url("img/bänner.png");
@@ -82,5 +90,9 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: normal; 
+    margin-top: 0;
+    margin-bottom: 20px;
 }
-
+.column img {
+    margin-bottom: 20px;
+}
