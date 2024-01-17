@@ -11,4 +11,15 @@ h1 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 1440px;
+    height: 610px;
 }
+.second{
+    background-image: url("img/pilt ja musterPõhipilt.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 610px;
+}
+nav{}
