@@ -372,3 +372,19 @@ td:nth-child(3){
     padding-right: 10px;
     font-weight: 500;
 }
+
+@media (max-width: 1000px) {
+    nav {
+        width: 100%;
+    }
+    .fifth {
+        display: none;
+    }
+    .fourth {
+        margin-left: 0px;
+        background-image: none;
+    }
+    .fourth h1 {
+        position: static;
+    }
+}
